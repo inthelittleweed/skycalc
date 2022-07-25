@@ -1,3 +1,13 @@
 body {
     background-color: white;
+    overflow: hidden;
+}
+#intro {
+    background-image: url("imgs/background.png");
+    height: 100vh;
+  }
+.mask {
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    background-color: rgba(178, 60, 253, 0.2);
 }
